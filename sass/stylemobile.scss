@@ -1,0 +1,38 @@
+@media screen and (max-width:800px){
+
+    body{
+        display: grid;
+        place-content: center;
+    }
+    .main{
+        width: 90%;
+        margin-inline: auto;
+        text-align: center;
+        border: 0;
+        border-radius: 8px;
+        overflow: hidden;
+        
+        .article{
+            display: flex;
+            flex-direction: column;
+            row-gap: 2rem;
+            padding: 3rem 2rem;
+
+            .article__div{
+                display: flex;
+                flex-direction: column;
+                row-gap: 2rem;
+            }
+
+            .article__ul{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                .ul__li{
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+}

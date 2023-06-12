@@ -1,0 +1,35 @@
+@media screen and (max-width: 800px) {
+  body {
+    display: grid;
+    place-content: center;
+  }
+  .main {
+    width: 90%;
+    margin-inline: auto;
+    text-align: center;
+    border: 0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .main .article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 3rem 2rem;
+  }
+  .main .article .article__div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .main .article .article__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .main .article .article__ul .ul__li {
+    line-height: 1.5;
+  }
+}
+
+/*# sourceMappingURL=stylemobile.css.map */

@@ -1,0 +1,42 @@
+@media screen and (min-width: 800px) {
+  body {
+    display: grid;
+    place-content: center;
+  }
+  .main {
+    width: 75rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline: auto;
+    border: 0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .main .article {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5rem;
+    padding-right: 7rem;
+  }
+  .main .article .article__div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .main .article .article__ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main .article .article__ul .ul__li {
+    line-height: 1.5;
+  }
+  .main .picture {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
+
+/*# sourceMappingURL=styledesktop.css.map */

@@ -1,0 +1,70 @@
+@import "variables.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: $main-bg;
+}
+
+.main{
+    background-color: $card-bg;
+
+    .picture{
+        display: block;
+        background-color: $accent;
+
+        img{
+            display: block;
+            width: 100%;
+            mix-blend-mode: multiply;
+            filter: contrast(0.65);
+        }
+    }
+
+    .article__h1{
+        font-family: $font-inter;
+        font-weight: 700;
+        font-size: 2rem;
+        color: $primary-color;
+    }
+
+    .article__h1--span{
+        color: $accent;
+    }
+
+    .article__text{
+        font-family: $font-lexend;
+        font-weight: 400;
+        color: rgba($primary-color, 0.75);
+        line-height: 1.75;
+    }
+
+    .ul__h2{
+        font-family: $font-lexend;
+        font-weight: 400;
+        font-size: 1rem;
+        color: rgba($primary-color, 0.6);
+    }
+
+    .ul__text{
+        font-family: $font-inter;
+        font-weight: 700;
+        font-size: 1.8rem;
+        color: $primary-color;
+    }
+
+    .ul__li{
+        list-style: none;
+    }
+}
+
